@@ -26,7 +26,11 @@ body {
 	margin: 1.2%;
 }
 .nav_bar div:hover{
-	background-color: green;
+	background-color: black;
+	color: white;
+}
+.nav_bar div a:hover{
+	color: white;
 }
 .nav_link{
 	text-decoration: none;
@@ -155,6 +159,11 @@ nav a {
 }
 a.current_dot {
 	transform: scale(1.4);
+}
+.copyright{
+	padding-top: 3%;
+	font-size: 10pt;
+	font-family: arial !important;
 }
 @media screen and (max-width: 700px) {
 	.left {
@@ -293,8 +302,13 @@ a.current_dot {
 	const slider = new SliderClip(document.querySelector('.slider'));
 }
 </script>
+
+<div class="copyright" align="center">
+&copy 2020 All Rights Reserved | Design by Naeem Abdullah Sadik
+</div>
+
 </body>
 </html>	
-html {
+<!--html {
 	font-size: calc(5px + 0.4vw);
-}
+}-->
